@@ -9,7 +9,7 @@ function App() {
 
   return (
     <>
-      <div className="top-container md:h-[300px] tablet:h-[350px] lg:h-[350px] laptop1024:h-[250px] desktop:h-[350px] laptop1024:bg-[url('./images/background-pattern-desktop.jpg')] tablet:bg-[url('./images/background-pattern-desktop.jpg')] lg:bg-[url('./images/background-pattern-desktop.jpg')] relative">
+      <div className="top-container md:h-[300px] tablet:h-[350px] lg:h-[350px] laptop1024:h-[250px] desktop:h-[350px] laptop1024:bg-background-pattern-desktop tablet:bg-background-pattern-desktop lg:bg-background-pattern-desktop relative">
         {/* Top container content */}
       </div>
 
