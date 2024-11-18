@@ -10,7 +10,7 @@ function Questions({ questions, answers, activeItem, setActiveItem }) {
     <>
       <div onClick={handleShow} className="question-cta h-[100%] flex flex-col gap-[30px] justify-between tablet:gap-[30px] laptop1024:gap-10 cursor-pointer transition-all duration-300 ease-in-out">
         <div className="flex transition-all justify-between duration-300 ease-in-out">
-          <p className="text-dark_purple font-bold w-[250px] laptop1024:text-[16px] lg:text-[16px] lg:w-[300px] desktop:text-[20px] laptop1024:w-[100%]">
+          <p className="heading text-dark_purple font-bold w-[250px] laptop1024:text-[16px] lg:text-[16px] lg:w-[300px] desktop:text-[20px] laptop1024:w-[100%]">
             {questions}
           </p>
           <img
