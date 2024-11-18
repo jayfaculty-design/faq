@@ -23,7 +23,7 @@ export default {
     extend: {
       backgroundImage: {
         'background-pattern-mobile': "url('./images/background-pattern-mobile.svg')",
-        'background-pattern-desktop': "url('./images/background-pattern-desktop.svg')",
+        'background-pattern-desktop': "url('/images/background-pattern-desktop.svg')",
       }
     },
   },
