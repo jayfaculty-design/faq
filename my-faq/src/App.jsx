@@ -54,9 +54,7 @@ function App() {
               setActiveItem={setActiveItem}
             />
           </div>
-          <div>
-            <img width={'90px'} src="./images/background-pattern-desktop.jpg" alt="" />
-          </div>
+          
         </div>
       </div>
     </>
