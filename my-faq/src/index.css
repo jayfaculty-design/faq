@@ -15,7 +15,7 @@
   
 }
 body {
-  background: var(--light-pink);
+  background: url(./images/background-pattern-desktop.jpg);
   padding: 0px;
   margin: 0px;
   box-sizing: border-box;
