@@ -21,10 +21,7 @@ export default {
       dark_purple : 'hsl(292, 42%, 14%)',
     },
     extend: {
-      backgroundImage: {
-        'background-pattern-mobile': "url('./images/background-pattern-mobile.svg')",
-        'background-pattern-desktop': "url('./images/background-pattern-desktop.svg')",
-      }
+     
     },
   },
   plugins: [],
