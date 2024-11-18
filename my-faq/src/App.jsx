@@ -14,14 +14,14 @@ function App() {
       </div>
 
       {/* Main FAQ (positioned on top of top-container) */}
-      <div className="main-faq absolute top-[150px] left-1/2 transform -translate-x-1/2 w-[90%] max-w-[600px] h-[400px] flex items-center justify-center rounded-lg shadow-lg p-6 z-10">
-        <div className="faq-container w-full flex flex-col bg-White p-[30px] rounded-md">
+      <div className="main-faq absolute top-[150px] left-1/2 transform -translate-x-1/2 w-[90%] max-w-[600px] h-[400px] flex items-center justify-center rounded-lg p-6 z-10">
+        <div className="faq-container w-full flex flex-col bg-White p-[30px] rounded-md shadow-lg">
           <div className="flex gap-[20px]">
             <img className="w-[25px] laptop1024:w-[26px]" src="./images/icon-star.svg" alt="" />
             <h1 className="laptop1024:text-[32px] font-bold text-[30px] text-dark_purple desktop:text-[35px]">FAQs</h1>
           </div>
 
-          <div className="flex flex-col gap-[20px] relative mt-[30px] transition-all duration-300 ease-in-out">
+          <div className="flex flex-col gap-[0px] relative mt-[30px] transition-all duration-300 ease-in-out">
             <Questions questions="What is Frontend Mentor, and how will it help me?" answers="Frontend Mentor offers realistic coding challenges to help developers improve their frontend coding skills with projects in HTML, CSS, and JavaScript. It's suitable for all levels and ideal for portfolio building."  />
             <Questions questions="Is Frontend Mentor Free?" answers={`Yes, Frontend Mentor offers both free and premium coding challenges, with the free option providing access to a range of projects suitable for all skill levels`} />
             <Questions questions="Can I use Frontend Mentor projects in my portfolio?" answers={`Yes, you can use projects completed on Frontend Mentor in your portfolio. It's an excellent way to showcase your skills to potential employers!`} />
