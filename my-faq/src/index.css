@@ -35,3 +35,23 @@ p {
   border-radius: 10px;
 
 }
+.faq-answers {
+  transition: all 0.3s ease-in-out;
+  display: none;
+}
+.main-faq {
+  background: none;
+}
+.img-minus {
+  display: none;
+}
+.img-minus.show-minus {
+  display: block;
+}
+.faq-answers.show {
+ display: block;
+ 
+}
+.img-plus.hide-plus {
+  display: none;
+}
