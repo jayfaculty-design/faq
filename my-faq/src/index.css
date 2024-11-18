@@ -58,9 +58,3 @@ p {
 .question-cta:hover p.heading{
   color: var(--Grayish-purple);
 }
-.question-cta:active p.heading{
-  color: var(--Grayish-purple);
-}
-.question-cta:focus-within p.heading{
-  color: var(--Grayish-purple);
-}
